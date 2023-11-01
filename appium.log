@@ -1,0 +1,97 @@
+2023-10-28 16:47:29:365 [Appium] Welcome to Appium v2.0.1 (REV 011810e721c4c26be997c7c0b62739c7b991526d)
+2023-10-28 16:47:29:368 [Appium] Non-default server args:
+2023-10-28 16:47:29:370 [Appium] { address: 'localhost', basePath: '/', relaxedSecurityEnabled: true }
+2023-10-28 16:47:29:370 [Appium] Attempting to load driver uiautomator2...
+2023-10-28 16:47:29:373 [Appium] Requiring driver at /Users/sivakotireddy/.appium/node_modules/appium-uiautomator2-driver
+2023-10-28 16:47:30:847 [Appium] Attempting to load driver xcuitest...
+2023-10-28 16:47:30:850 [Appium] Requiring driver at /Users/sivakotireddy/.appium/node_modules/appium-xcuitest-driver
+2023-10-28 16:47:32:467 [Appium] Attempting to load driver mac2...
+2023-10-28 16:47:32:469 [Appium] Requiring driver at /Users/sivakotireddy/.appium/node_modules/appium-mac2-driver
+2023-10-28 16:47:32:677 [Appium] Appium REST http interface listener started on http://localhost:4723
+2023-10-28 16:47:32:677 [Appium] Available drivers:
+2023-10-28 16:47:32:677 [Appium]   - uiautomator2@2.29.11 (automationName 'UiAutomator2')
+2023-10-28 16:47:32:677 [Appium]   - xcuitest@5.7.0 (automationName 'XCUITest')
+2023-10-28 16:47:32:678 [Appium]   - mac2@1.8.2 (automationName 'Mac2')
+2023-10-28 16:47:32:678 [Appium] Available plugins:
+2023-10-28 16:47:32:678 [Appium]   - element-wait@2.0.3
+2023-10-28 16:47:32:679 [Appium]   - appium-dashboard@v2.0.2
+2023-10-28 16:47:32:679 [Appium]   - device-farm@8.3.1
+2023-10-28 16:47:32:679 [Appium]   - gestures@3.0.0
+2023-10-28 16:47:32:679 [Appium] No plugins activated. Use the --use-plugins flag with names of plugins to activate
+2023-10-28 16:47:34:231 [HTTP] --> POST /session
+2023-10-28 16:47:34:232 [HTTP] {"capabilities":{"alwaysMatch":{"browserName":"chrome"},"firstMatch":[{}]},"desiredCapabilities":{"browserName":"chrome"}}
+2023-10-28 16:47:34:233 [AppiumDriver@0781] Calling AppiumDriver.createSession() with args: [{"browserName":"chrome"},null,{"alwaysMatch":{"browserName":"chrome"},"firstMatch":[{}]}]
+2023-10-28 16:47:34:234 [AppiumDriver@0781] Event 'newSessionRequested' logged at 1698511654233 (17:47:34 GMT+0100 (British Summer Time))
+2023-10-28 16:47:34:238 [Appium] Could not parse W3C capabilities: 'automationName' can't be blank; 'platformName' can't be blank
+2023-10-28 16:47:34:239 [AppiumDriver@0781] Event 'newSessionStarted' logged at 1698511654238 (17:47:34 GMT+0100 (British Summer Time))
+2023-10-28 16:47:34:287 [AppiumDriver@0781] Encountered internal error running command: InvalidArgumentError: 'automationName' can't be blank; 'platformName' can't be blank
+2023-10-28 16:47:34:287 [AppiumDriver@0781]     at processCapabilities (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/capabilities.js:345:13)
+2023-10-28 16:47:34:287 [AppiumDriver@0781]     at parseCapsForInnerDriver (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/utils.js:151:40)
+2023-10-28 16:47:34:287 [AppiumDriver@0781]     at AppiumDriver.createSession (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/appium.js:257:49)
+2023-10-28 16:47:34:287 [AppiumDriver@0781]     at commandExecutor (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:107:18)
+2023-10-28 16:47:34:287 [AppiumDriver@0781]     at AppiumDriver.executeCommand (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:124:15)
+2023-10-28 16:47:34:287 [AppiumDriver@0781]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-28 16:47:34:287 [AppiumDriver@0781]     at defaultBehavior (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/appium.js:696:16)
+2023-10-28 16:47:34:287 [AppiumDriver@0781]     at AppiumDriver.executeWrappedCommand (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/appium.js:806:16)
+2023-10-28 16:47:34:288 [AppiumDriver@0781]     at AppiumDriver.executeCommand (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/appium.js:712:17)
+2023-10-28 16:47:34:288 [AppiumDriver@0781]     at asyncHandler (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:393:19)
+2023-10-28 16:47:34:291 [HTTP] <-- POST /session 400 58 ms - 1612
+2023-10-28 16:47:34:291 [HTTP] 
+2023-10-28 16:47:34:309 [HTTP] --> POST /session
+2023-10-28 16:47:34:310 [HTTP] {"capabilities":{"alwaysMatch":{"browserName":"chrome"},"firstMatch":[{}]},"desiredCapabilities":{"browserName":"chrome"}}
+2023-10-28 16:47:34:310 [AppiumDriver@0781] Calling AppiumDriver.createSession() with args: [{"browserName":"chrome"},null,{"alwaysMatch":{"browserName":"chrome"},"firstMatch":[{}]}]
+2023-10-28 16:47:34:310 [AppiumDriver@0781] Event 'newSessionRequested' logged at 1698511654310 (17:47:34 GMT+0100 (British Summer Time))
+2023-10-28 16:47:34:311 [Appium] Could not parse W3C capabilities: 'automationName' can't be blank; 'platformName' can't be blank
+2023-10-28 16:47:34:311 [AppiumDriver@0781] Event 'newSessionStarted' logged at 1698511654311 (17:47:34 GMT+0100 (British Summer Time))
+2023-10-28 16:47:34:313 [AppiumDriver@0781] Encountered internal error running command: InvalidArgumentError: 'automationName' can't be blank; 'platformName' can't be blank
+2023-10-28 16:47:34:314 [AppiumDriver@0781]     at processCapabilities (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/capabilities.js:345:13)
+2023-10-28 16:47:34:314 [AppiumDriver@0781]     at parseCapsForInnerDriver (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/utils.js:151:40)
+2023-10-28 16:47:34:314 [AppiumDriver@0781]     at AppiumDriver.createSession (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/appium.js:257:49)
+2023-10-28 16:47:34:314 [AppiumDriver@0781]     at commandExecutor (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:107:18)
+2023-10-28 16:47:34:314 [AppiumDriver@0781]     at AppiumDriver.executeCommand (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:124:15)
+2023-10-28 16:47:34:314 [AppiumDriver@0781]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-28 16:47:34:314 [AppiumDriver@0781]     at defaultBehavior (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/appium.js:696:16)
+2023-10-28 16:47:34:314 [AppiumDriver@0781]     at AppiumDriver.executeWrappedCommand (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/appium.js:806:16)
+2023-10-28 16:47:34:314 [AppiumDriver@0781]     at AppiumDriver.executeCommand (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/appium.js:712:17)
+2023-10-28 16:47:34:314 [AppiumDriver@0781]     at asyncHandler (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:393:19)
+2023-10-28 16:47:34:315 [HTTP] <-- POST /session 400 6 ms - 1612
+2023-10-28 16:47:34:315 [HTTP] 
+2023-10-28 16:47:34:322 [HTTP] --> POST /session
+2023-10-28 16:47:34:323 [HTTP] {"capabilities":{"alwaysMatch":{"browserName":"chrome"},"firstMatch":[{}]},"desiredCapabilities":{"browserName":"chrome"}}
+2023-10-28 16:47:34:323 [AppiumDriver@0781] Calling AppiumDriver.createSession() with args: [{"browserName":"chrome"},null,{"alwaysMatch":{"browserName":"chrome"},"firstMatch":[{}]}]
+2023-10-28 16:47:34:323 [AppiumDriver@0781] Event 'newSessionRequested' logged at 1698511654323 (17:47:34 GMT+0100 (British Summer Time))
+2023-10-28 16:47:34:324 [Appium] Could not parse W3C capabilities: 'automationName' can't be blank; 'platformName' can't be blank
+2023-10-28 16:47:34:324 [AppiumDriver@0781] Event 'newSessionStarted' logged at 1698511654324 (17:47:34 GMT+0100 (British Summer Time))
+2023-10-28 16:47:34:325 [AppiumDriver@0781] Encountered internal error running command: InvalidArgumentError: 'automationName' can't be blank; 'platformName' can't be blank
+2023-10-28 16:47:34:325 [AppiumDriver@0781]     at processCapabilities (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/capabilities.js:345:13)
+2023-10-28 16:47:34:325 [AppiumDriver@0781]     at parseCapsForInnerDriver (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/utils.js:151:40)
+2023-10-28 16:47:34:326 [AppiumDriver@0781]     at AppiumDriver.createSession (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/appium.js:257:49)
+2023-10-28 16:47:34:326 [AppiumDriver@0781]     at commandExecutor (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:107:18)
+2023-10-28 16:47:34:326 [AppiumDriver@0781]     at AppiumDriver.executeCommand (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:124:15)
+2023-10-28 16:47:34:326 [AppiumDriver@0781]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-28 16:47:34:326 [AppiumDriver@0781]     at defaultBehavior (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/appium.js:696:16)
+2023-10-28 16:47:34:326 [AppiumDriver@0781]     at AppiumDriver.executeWrappedCommand (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/appium.js:806:16)
+2023-10-28 16:47:34:326 [AppiumDriver@0781]     at AppiumDriver.executeCommand (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/appium.js:712:17)
+2023-10-28 16:47:34:326 [AppiumDriver@0781]     at asyncHandler (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:393:19)
+2023-10-28 16:47:34:327 [HTTP] <-- POST /session 400 4 ms - 1612
+2023-10-28 16:47:34:328 [HTTP] 
+2023-10-28 16:47:34:335 [HTTP] --> POST /session
+2023-10-28 16:47:34:335 [HTTP] {"capabilities":{"alwaysMatch":{"browserName":"chrome"},"firstMatch":[{}]},"desiredCapabilities":{"browserName":"chrome"}}
+2023-10-28 16:47:34:336 [AppiumDriver@0781] Calling AppiumDriver.createSession() with args: [{"browserName":"chrome"},null,{"alwaysMatch":{"browserName":"chrome"},"firstMatch":[{}]}]
+2023-10-28 16:47:34:336 [AppiumDriver@0781] Event 'newSessionRequested' logged at 1698511654336 (17:47:34 GMT+0100 (British Summer Time))
+2023-10-28 16:47:34:337 [Appium] Could not parse W3C capabilities: 'automationName' can't be blank; 'platformName' can't be blank
+2023-10-28 16:47:34:337 [AppiumDriver@0781] Event 'newSessionStarted' logged at 1698511654337 (17:47:34 GMT+0100 (British Summer Time))
+2023-10-28 16:47:34:337 [AppiumDriver@0781] Encountered internal error running command: InvalidArgumentError: 'automationName' can't be blank; 'platformName' can't be blank
+2023-10-28 16:47:34:338 [AppiumDriver@0781]     at processCapabilities (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/capabilities.js:345:13)
+2023-10-28 16:47:34:338 [AppiumDriver@0781]     at parseCapsForInnerDriver (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/utils.js:151:40)
+2023-10-28 16:47:34:338 [AppiumDriver@0781]     at AppiumDriver.createSession (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/appium.js:257:49)
+2023-10-28 16:47:34:338 [AppiumDriver@0781]     at commandExecutor (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:107:18)
+2023-10-28 16:47:34:338 [AppiumDriver@0781]     at AppiumDriver.executeCommand (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:124:15)
+2023-10-28 16:47:34:338 [AppiumDriver@0781]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-28 16:47:34:338 [AppiumDriver@0781]     at defaultBehavior (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/appium.js:696:16)
+2023-10-28 16:47:34:338 [AppiumDriver@0781]     at AppiumDriver.executeWrappedCommand (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/appium.js:806:16)
+2023-10-28 16:47:34:338 [AppiumDriver@0781]     at AppiumDriver.executeCommand (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/lib/appium.js:712:17)
+2023-10-28 16:47:34:338 [AppiumDriver@0781]     at asyncHandler (/Users/sivakotireddy/.nvm/versions/node/v18.16.0/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:393:19)
+2023-10-28 16:47:34:340 [HTTP] <-- POST /session 400 4 ms - 1612
+2023-10-28 16:47:34:340 [HTTP] 
+2023-10-28 16:47:34:480 [Appium] Received SIGTERM - shutting down
